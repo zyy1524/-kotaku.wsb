@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuliner Wonosobo</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            margin: 0;
+            background-color: #fafafa;
+            color: #333;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background: #ffffffee;
+            backdrop-filter: blur(6px);
+            border-bottom: 1px solid #e3e3e3;
+            text-align: center;
+            padding: 12px 0;
+            z-index: 10;
+        }
+
+        nav a {
+            margin: 0 20px;
+            font-weight: 600;
+            color: #333;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #ff6b00;
+        }
+
+        section {
+            padding: 60px 10%;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2.4rem;
+            margin-bottom: 40px;
+            color: #ff6b00;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: transform 0.3s;
+            text-decoration: none;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 12px;
+        }
+
+        .card-content h3 {
+            margin: 0 0 8px 0;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="kuliner.html">Kuliner</a>
+    <a href="wisata.html">Wisata</a>
+    <a href="kontak.html">Kontak</a>
+</nav>
+
+<section>
+     <h2>Kuliner Khas Wonosobo</h2>
+
+    <div class="grid">
+
+        <!-- Card Mie Ongklok -->
+        <a href="mie-ongklok.html" class="card">
+            <img src="mie.jpg" alt="Mie Ongklok">
+            <div class="card-content">
+                <h3>Mie Ongklok</h3>
+                <p>Makanan khas Wonosobo yang disajikan dengan kuah kental dan sate sapi.</p>
+            </div>
+        </a>
+
+        <!-- Card Tempe Kemul -->
+        <a href="tempe-kemul.html" class="card">
+            <img src="tempekem.jpg" alt="Tempe Kemul">
+            <div class="card-content">
+                <h3>Tempe Kemul</h3>
+                <p>Tempe goreng khas dengan lapisan tepung bumbu renyah.</p>
+            </div>
+        </a>
+
+        <!-- Card Carica -->
+        <a href="carica.html" class="card">
+            <img src="carica.jpg" alt="Carica">
+            <div class="card-content">
+                <h3>Carica</h3>
+                <p>Buah khas Dieng yang segar dan cocok untuk oleh-oleh.</p>
+            </div>
+        </a>
+
+        <!-- Card Dendeng Gepuk -->
+        <a href="dendenggepuk.html" class="card">
+            <img src="dendeng.jpg" alt="Dendeng Gepuk">
+            <div class="card-content">
+                <h3>Dendeng Gepuk</h3>
+                <p>Dendeng khas Wonosobo yang digepuk dan digoreng kering.</p>
+            </div>
+        </a>
+
+        <!-- Card Sagon -->
+        <a href="sagon.html" class="card">
+            <img src="sagon.jpg" alt="Sagon">
+            <div class="card-content">
+                <h3>Sagon</h3>
+                <p>Kue tradisional berbahan kelapa dan tepung, gurih dan manis.</p>
+            </div>
+        </a>
+
+        <!-- Card Geblek-->
+        <a href="geblek.html" class="card">
+            <img src="geblek.jpg" alt="Geblek">
+            <div class="card-content">
+                <h3>Geblek</h3>
+                <p>Makanan berbahan dasar singkong dengan tekstur kenyal dan rasa yang gurih.</p>
+            </div>
+        </a>
+
+        <!-- Card Kopi Arabika Dieng -->
+        <a href="kopi.html" class="card">
+            <img src="kopi.jpg" alt="Kopi Arabika Dieng">
+            <div class="card-content">
+                <h3>Kopi Arabika Dieng</h3>
+                <p>Kopi khas pegunungan Dieng dengan aroma kuat dan cita rasa khas.</p>
+            </div>
+        </a>
+
+        <!-- Card Keripik Jamur -->
+        <a href="keripik.html" class="card">
+            <img src="jamur.jpg" alt="Keripik Jamur Dieng">
+            <div class="card-content">
+                <h3>Keripik Jamur</h3>
+                <p>Camilan renyah dari jamur tiram khas pegunungan Dieng.</p>
+            </div>
+        </a>
+
+        <!-- Card Bunti -->
+        <a href="buntil.html" class="card">
+            <img src="buntil.jpg" alt="Buntil">
+            <div class="card-content">
+                <h3>Buntil</h3>
+                <p>Masakan dari parutan kelapa berbumbu, dibungkus daun talas dan direbus hingga gurih.</p>
+            </div>
+        </a>
+
+    </div>
+</section>
+
+<footer>© 2025 Eksplorasi Wonosobo</footer>
+
+</body>
+</html>
